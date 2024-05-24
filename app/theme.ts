@@ -4,8 +4,9 @@ import { extendTheme } from "@chakra-ui/react";
 
 const fontConfig = {
 	fonts: {
-		heading: "var(--font-quicksand)",
-		body: "var(--font-quicksand)",
+		heading: "var(--font-quicksand), sans-serif",
+		body: "var(--font-quicksand), sans-serif",
+		main: "var(--font-quicksand)",
 		mono: "Menlo, monospace",
 	},
 	fontSizes: {
@@ -91,6 +92,11 @@ const extension = {
 
 const buttonLink = {
 	components: {
+		MotionHeading: {
+			baseStyle: {
+				fontFamily: "Quicksand",
+			},
+		},
 		Link: {
 			baseStyle: {
 				position: "relative",
