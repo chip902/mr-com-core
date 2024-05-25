@@ -4,7 +4,7 @@ import { Box, Button, FormControl, FormLabel, Heading, Input, Textarea, VStack }
 const Contact = () => {
 	return (
 		<Box p={8} maxW="800px" mx="auto">
-			<Heading as="h1" size="2xl" mb={8}>
+			<Heading mt={50} as="h1" size="xl" mb={8}>
 				Contact Me
 			</Heading>
 			<VStack as="form" spacing={4}>
@@ -20,7 +20,7 @@ const Contact = () => {
 					<FormLabel>Message</FormLabel>
 					<Textarea placeholder="Your Message" />
 				</FormControl>
-				<Button type="submit" colorScheme="teal" size="lg" mt={4}>
+				<Button type="submit" variant="inline" size="lg" mt={4}>
 					Send Message
 				</Button>
 			</VStack>

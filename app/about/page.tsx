@@ -20,11 +20,6 @@ const AboutPage = () => {
 					open, adapting and modifying my approach to the needs, difficulties and goals of each person who comes to me seeking help. In addition to my
 					clinical work, I am available for consultation and clinical supervision.
 				</Text>
-				<NextLink href="#" passHref legacyBehavior>
-					<Link mx={2} fontSize="lg">
-						Read More
-					</Link>
-				</NextLink>
 			</VStack>
 
 			<VStack align="start" spacing={6} mt={12}>

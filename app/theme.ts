@@ -97,6 +97,11 @@ const buttonLink = {
 				fontFamily: "Quicksand",
 			},
 		},
+		Heading: {
+			baseStyle: {
+				fontFamily: "Quicksand",
+			},
+		},
 		Link: {
 			baseStyle: {
 				position: "relative",

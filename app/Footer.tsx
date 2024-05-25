@@ -18,9 +18,6 @@ const Footer = () => {
 				<NextLink href="#privacy" passHref legacyBehavior>
 					<Link mx={2}>Privacy Policy</Link>
 				</NextLink>
-				<NextLink href="#terms" passHref legacyBehavior>
-					<Link mx={2}>Terms of Service</Link>
-				</NextLink>
 				<NextLink href="/contact" passHref legacyBehavior>
 					<Link mx={2}>Contact</Link>
 				</NextLink>

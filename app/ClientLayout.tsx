@@ -6,6 +6,7 @@ import { Box } from "@chakra-ui/react";
 import { Providers } from "./providers";
 import Navbar from "./NavBar";
 import Footer from "./Footer";
+import PrivacyBanner from "./PrivacyBanner";
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
 	return (
@@ -25,6 +26,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
 					<Navbar />
 					<Box as="main">{children}</Box>
 					<Footer />
+					<PrivacyBanner />
 				</Providers>
 			</body>
 		</html>
