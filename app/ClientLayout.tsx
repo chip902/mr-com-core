@@ -4,8 +4,6 @@ import { font } from "./font";
 import "@fontsource-variable/quicksand";
 import { Box } from "@chakra-ui/react";
 import { Providers } from "./providers";
-import Navbar from "./NavBar";
-import Footer from "./Footer";
 import PrivacyBanner from "./PrivacyBanner";
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
@@ -23,9 +21,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
 			</head>
 			<body>
 				<Providers>
-					<Navbar />
 					<Box as="main">{children}</Box>
-					<Footer />
 					<PrivacyBanner />
 				</Providers>
 			</body>

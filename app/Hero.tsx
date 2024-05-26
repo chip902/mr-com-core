@@ -4,18 +4,23 @@ import { motion } from "framer-motion";
 
 const MotionHeading = motion(Heading);
 
-const Hero = () => {
+interface Props {
+	header: String;
+	subHeader?: String;
+}
+
+const Hero = ({ header, subHeader }: Props) => {
 	return (
 		<Box
 			bgImage="url('/waterfall.webp')"
 			bgSize="cover"
 			boxShadow="xl"
 			bgPosition="center"
-			height="70vh"
+			height="60vh"
 			display="flex"
 			justifyContent="center"
 			alignItems="flex-end"
-			pb="30vh">
+			pb="25vh">
 			<VStack>
 				<MotionHeading
 					as="h1"
@@ -27,20 +32,22 @@ const Hero = () => {
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					transition={{ duration: 2 }}>
-					Marilyn Rifkin, LCSW
+					{header}
 				</MotionHeading>
-				<MotionHeading
-					as="h2"
-					fontFamily="Quicksand"
-					fontWeight="bold"
-					size="md"
-					color="white"
-					mb={8}
-					initial={{ opacity: 0 }}
-					animate={{ opacity: 1 }}
-					transition={{ duration: 4 }}>
-					Connecticut | New York | Flordia
-				</MotionHeading>
+				{subHeader && (
+					<MotionHeading
+						as="h2"
+						fontFamily="Quicksand"
+						fontWeight="bold"
+						size="md"
+						color="white"
+						mb={8}
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{ duration: 4 }}>
+						{subHeader}
+					</MotionHeading>
+				)}
 			</VStack>
 		</Box>
 	);

@@ -15,7 +15,7 @@ const Footer = () => {
 					<a className="sx-verified-seal" />
 				</NextLink>
 				<Spacer />
-				<NextLink href="#privacy" passHref legacyBehavior>
+				<NextLink href="/privacy-policy" passHref legacyBehavior>
 					<Link mx={2}>Privacy Policy</Link>
 				</NextLink>
 				<NextLink href="/contact" passHref legacyBehavior>
