@@ -11,10 +11,17 @@ class MyDocument extends Document {
 		return (
 			<Html lang="en">
 				<Head>
-					<link rel="icon" href="/favicon.ico" sizes="any" />
-					<link rel="preconnect" href="https://fonts.googleapis.com" />
-					<link rel="preconnect" href="https://fonts.gstatic.com" />
-					<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+					<title>Marilyn Rifkin, LCSW</title>
+					<meta name="viewport" content="width=device-width, initial-scale=1" />
+					<link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
+					<link rel="icon" href="/icon.png" type="image/png" sizes="16x16" />
+					<meta name="msapplication-TileColor" content="#da532c" />
+					<meta name="theme-color" content="#ffffff" />
+					<meta property="og:title" content="Marilyn Rifkin, LCSW" />
+					<meta property="og:description" content="Psychotherapy, Psychoanalysis and Clinical Supervision" />
+					<meta property="og:image" content="/og-image.jpg" />
+					<meta property="og:url" content="https://marilynrifkin.com" />
+					<meta name="twitter:card" content="summary_large_image" />
 				</Head>
 				<body className={font.quicksand.variable}>
 					<Main />

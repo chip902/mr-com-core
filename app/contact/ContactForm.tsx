@@ -24,7 +24,7 @@ const ContactForm = () => {
 					"Content-Type": "application/json",
 				},
 				body: JSON.stringify({
-					to: "andrew@chip-hosting.com",
+					to: "marilyn@marilynrifkin.com",
 					from: formData.email,
 					subject: `Contact Form Submission from ${formData.name}`,
 					text: formData.message,

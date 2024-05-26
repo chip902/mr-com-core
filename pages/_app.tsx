@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 			<Head>
 				<title>Marilyn Rifkin, LCSW</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
-				<link rel="icon" href="/icon.png" type="image/png" sizes="16x16" />
+				<link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
+				<link rel="icon" href="/favicon.png" type="image/png" sizes="16x16" />
 				<meta name="msapplication-TileColor" content="#da532c" />
 				<meta name="theme-color" content="#ffffff" />
 				<meta property="og:title" content="Marilyn Rifkin, LCSW" />
