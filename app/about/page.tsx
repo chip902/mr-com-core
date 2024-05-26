@@ -1,4 +1,4 @@
-import { VStack, Heading, Box, Text, Link } from "@chakra-ui/react";
+import { VStack, Heading, Box, Text } from "@chakra-ui/react";
 import React from "react";
 import Hero from "../Hero";
 

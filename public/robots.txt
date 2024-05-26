@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://marilynrifkin.com
+
+# Sitemaps
+Sitemap: https://marilynrifkin.com/sitemap.xml
