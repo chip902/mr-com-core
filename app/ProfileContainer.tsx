@@ -18,7 +18,7 @@ const ProfileContainer = () => {
 							accomplishment at discovering inner resilience and strength. Psychotherapy offers the opportunity to find new and more adaptive
 							solutions and can help enhance a sense of mastery over your inner and external life.
 						</Text>
-						<NextLink as="a" href="https://www.psychologytoday.com/profile/384337" className="sx-verified-seal" />
+						<NextLink passHref as="a" href="https://www.psychologytoday.com/profile/384337" className="sx-verified-seal" />
 						<Text fontSize="xl">
 							As a board certified psychotherapist and psychoanalyst with many years of experience, I strive to provide a welcoming, relaxed, and
 							safe environment where you can feel understood and accepted. Please feel free to contact me by phone or through email. I will be
