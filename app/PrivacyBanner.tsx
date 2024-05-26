@@ -6,7 +6,7 @@ const PrivacyBanner = () => {
 
 	useEffect(() => {
 		if (!document.cookie.includes("_cookiesAccepted")) onToggle();
-	});
+	}, []);
 
 	const handleAcceptCookies = () => {
 		const expires = new Date();

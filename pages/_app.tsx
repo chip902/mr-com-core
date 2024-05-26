@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 				<meta name="msapplication-TileColor" content="#da532c" />
 				<meta name="theme-color" content="#ffffff" />
 				<meta property="og:title" content="Marilyn Rifkin, LCSW" />
-				<meta property="og:description" content="Licensed Clinical Social Worker and Psychoanalyst" />
+				<meta property="og:description" content="Psychotherapy, Psychoanalysis and Clinical Supervision" />
 				<meta property="og:image" content="/og-image.jpg" />
 				<meta property="og:url" content="https://marilynrifkin.com" />
 				<meta name="twitter:card" content="summary_large_image" />
