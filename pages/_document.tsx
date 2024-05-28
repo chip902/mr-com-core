@@ -23,7 +23,7 @@ class MyDocument extends Document {
 					<meta property="og:url" content="https://marilynrifkin.com" />
 					<meta name="twitter:card" content="summary_large_image" />
 				</Head>
-				<body className={font.quicksand.variable}>
+				<body className={font.roboto.variable}>
 					<Main />
 					<NextScript />
 				</body>

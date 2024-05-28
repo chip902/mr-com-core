@@ -5,9 +5,9 @@ import { extendTheme } from "@chakra-ui/react";
 
 const fontConfig = {
 	fonts: {
-		heading: "var(--font-quicksand), sans-serif",
-		body: "var(--font-quicksand), sans-serif",
-		main: "var(--font-quicksand)",
+		heading: "var(--font-roboto), sans-serif",
+		body: "var(--font-roboto), sans-serif",
+		main: "var(--font-roboto)",
 		mono: "Menlo, monospace",
 	},
 	fontSizes: {
@@ -67,7 +67,7 @@ const extension = {
 	styles: {
 		global: {
 			body: {
-				fontFamily: "var(--font-quicksand)",
+				fontFamily: "var(--font-roboto)",
 			},
 		},
 		variants: {
@@ -94,13 +94,13 @@ const buttonLink = {
 	components: {
 		MotionHeading: {
 			baseStyle: {
-				fontFamily: "Quicksand",
+				fontFamily: "roboto",
 				textShadow: "1px 1px 2px black, 0 0 1em white",
 			},
 		},
 		Heading: {
 			baseStyle: {
-				fontFamily: "Quicksand",
+				fontFamily: "roboto",
 			},
 		},
 		Link: {

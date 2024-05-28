@@ -1,12 +1,13 @@
 // font.ts
 "use client";
-import { Quicksand } from "next/font/google";
+import { Roboto } from "next/font/google";
 
-const quicksand = Quicksand({
+const roboto = Roboto({
 	subsets: ["latin"],
-	variable: "--font-quicksand",
+	variable: "--font-roboto",
+	weight: ["100", "300", "400", "500", "700", "900"],
 });
 
 export const font = {
-	quicksand,
+	roboto,
 };

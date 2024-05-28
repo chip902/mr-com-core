@@ -20,9 +20,11 @@ const ProfileContainer = () => {
 						</Text>
 						<NextLink passHref as="a" href="https://www.psychologytoday.com/profile/384337" className="sx-verified-seal" />
 						<Text fontSize="xl">
-							As a board certified psychotherapist and psychoanalyst with many years of experience, I strive to provide a welcoming, relaxed, and
-							safe environment where you can feel understood and accepted. Please feel free to contact me by phone or through email. I will be
-							happy to answer any questions you have.
+							As a board-certified psychotherapist and psychoanalyst with over 30 years of experience, I strive to provide a welcoming, relaxed,
+							and safe environment where you can feel understood and accepted. I work with individuals as well as couples to increase
+							self-understanding and effectively make long-lasting changes. I also offer clinical supervision for mental health professionals who
+							seek to continue their learning. Please feel free to contact me by phone or through email. I will be happy to answer any questions
+							you have.
 						</Text>
 					</VStack>
 				</Box>
