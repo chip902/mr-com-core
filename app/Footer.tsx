@@ -11,7 +11,9 @@ const Footer = () => {
 						Marilyn Rifkin, LCSW
 					</Link>
 				</NextLink>
-				<a href="https://www.psychologytoday.com/profile/384337" className="sx-verified-seal"></a>
+				<NextLink href="https://www.psychologytoday.com/profile/384337" passHref legacyBehavior>
+					<a className="sx-verified-seal" />
+				</NextLink>
 				<Spacer />
 				<NextLink href="/privacy-policy" passHref legacyBehavior>
 					<Link mx={2}>Privacy Policy</Link>
