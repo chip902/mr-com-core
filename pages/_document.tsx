@@ -23,13 +23,6 @@ class MyDocument extends Document {
 					<meta property="og:image" content="/profile-photo.jpg" />
 					<meta property="og:url" content="https://marilynrifkin.com" />
 					<meta name="twitter:card" content="summary_large_image" />
-					<Script
-						strategy="afterInteractive"
-						data-badge="13"
-						src="https://member.psychologytoday.com/verified-seal.js"
-						data-id="384337"
-						data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="
-					/>
 				</Head>
 				<body className={font.roboto.variable}>
 					<Main />
