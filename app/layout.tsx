@@ -1,4 +1,3 @@
-import { GoogleTagManager } from "@next/third-parties/google";
 import ClientLayout from "./ClientLayout";
 import Footer from "./Footer";
 import Navbar from "./NavBar";
@@ -8,7 +7,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<ServerLayout>
 			<ClientLayout>
-				<GoogleTagManager gtmId="GTM-NCGDKWPN" />
 				<nav>
 					<Navbar />
 				</nav>

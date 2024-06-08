@@ -9,16 +9,7 @@ import PrivacyBanner from "./PrivacyBanner";
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en" className={font.roboto.variable}>
-			<head>
-				<script
-					async
-					type="text/javascript"
-					src="https://member.psychologytoday.com/verified-seal.js"
-					data-badge="13"
-					data-id="384337"
-					data-code="aHR0cHM6Ly93d3cucHN5Y2hvbG9neXRvZGF5LmNvbS9hcGkvdmVyaWZpZWQtc2VhbC9zZWFscy9bQkFER0VdL3Byb2ZpbGUvW1BST0ZJTEVfSURdP2NhbGxiYWNrPXN4Y2FsbGJhY2s="
-				/>
-			</head>
+			<head></head>
 			<body>
 				<Providers>
 					<Box as="main">{children}</Box>

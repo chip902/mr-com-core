@@ -1,3 +1,4 @@
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Metadata } from "next";
 import Script from "next/script";
 
@@ -10,7 +11,12 @@ export const metadata: Metadata = {
 };
 
 const ServerLayout = ({ children }: { children: React.ReactNode }) => {
-	return <>{children}</>;
+	return (
+		<>
+			<GoogleTagManager gtmId="GTM-NCGDKWPN" />
+			{children}
+		</>
+	);
 };
 
 export default ServerLayout;

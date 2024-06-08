@@ -11,16 +11,18 @@ const Navbar = () => {
 					</Link>
 				</NextLink>
 				<Spacer />
-				<NextLink href="/about" passHref legacyBehavior>
-					<Link variant="linkNav" mx={2} fontSize="xl">
-						About
-					</Link>
-				</NextLink>
-				<NextLink href="/contact" passHref legacyBehavior>
-					<Link variant="linkNav" mx={2} fontSize="xl">
-						Contact
-					</Link>
-				</NextLink>
+				<Flex justify="space-evenly">
+					<NextLink href="/about" passHref legacyBehavior>
+						<Link variant="linkNav" mx={2} fontSize="xl">
+							About
+						</Link>
+					</NextLink>
+					<NextLink href="/contact" passHref legacyBehavior>
+						<Link variant="linkNav" mx={2} fontSize="xl">
+							Contact
+						</Link>
+					</NextLink>
+				</Flex>
 			</Flex>
 		</Box>
 	);

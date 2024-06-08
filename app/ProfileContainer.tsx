@@ -1,6 +1,6 @@
 // components/ProfileContainer.tsx
 import { Box, Container, Flex, Image, Text, VStack } from "@chakra-ui/react";
-import NextLink from "next/link";
+import PsyTodayBadge from "./PsyTodayBadge";
 const ProfileContainer = () => {
 	return (
 		<Container flex="1" boxShadow="2xl" py={30}>
@@ -9,6 +9,7 @@ const ProfileContainer = () => {
 					<Image src="profile-photo.jpg" alt="Profile Photo" />
 				</Box>
 				<Box flex="1">
+					<PsyTodayBadge />
 					<VStack align="start" spacing={4} p={10}>
 						<Text fontSize="xl">
 							The impact of life&apos;s challenges on your mental and emotional well-being cannot be underestimated. Loneliness, depression,

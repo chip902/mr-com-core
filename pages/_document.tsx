@@ -1,7 +1,6 @@
 // pages/_document.tsx
 import Document, { Html, Head, Main, NextScript, DocumentContext } from "next/document";
 import { font } from "@/app/font";
-import Script from "next/script";
 
 class MyDocument extends Document {
 	static async getInitialProps(ctx: DocumentContext) {
