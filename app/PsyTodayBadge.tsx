@@ -17,7 +17,7 @@ const PsyTodayBadge = () => {
 		return () => {
 			document.body.removeChild(script);
 		};
-	}, [""]);
+	}, []);
 	return (
 		<div>
 			<a href="https://www.psychologytoday.com/profile/384337" className="sx-verified-seal"></a>

@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { useToast, Box, Button, FormControl, FormLabel, Input, Textarea, VStack } from "@chakra-ui/react";
-import { toEmail } from "../../data/data";
 
 const ContactForm = () => {
 	const toast = useToast();
@@ -25,7 +24,6 @@ const ContactForm = () => {
 					"Content-Type": "application/json",
 				},
 				body: JSON.stringify({
-					to: toEmail,
 					from: formData.email,
 					subject: `Contact Form Submission from ${formData.name}`,
 					text: formData.message,

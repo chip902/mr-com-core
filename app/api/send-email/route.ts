@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
 
 	sgMail.setApiKey(process.env.SENDGRID_API_KEY as string);
 
-	const { to, from, subject, text, html } = body;
+	const { to = "marilyn@marilynrifkin.com", from, subject, text, html } = body;
 
 	const msg = {
 		to,
