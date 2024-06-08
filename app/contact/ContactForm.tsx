@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useToast, Box, Button, FormControl, FormLabel, Input, Textarea, VStack } from "@chakra-ui/react";
-import { toEmail } from "./data";
+import { toEmail } from "../../data/data";
 
 const ContactForm = () => {
 	const toast = useToast();
