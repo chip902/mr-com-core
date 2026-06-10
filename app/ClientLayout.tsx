@@ -1,7 +1,7 @@
 "use client";
 import "./globals.css";
 import { font } from "./font";
-import "@fontsource/roboto";
+import "@fontsource/roboto/index.css";
 import { Box } from "@chakra-ui/react";
 import { Providers } from "./providers";
 import PrivacyBanner from "./PrivacyBanner";
