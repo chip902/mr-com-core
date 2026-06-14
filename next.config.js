@@ -1,8 +1,8 @@
 const cspHeader = `
     default-src 'self';
-    script-src 'self' 'unsafe-eval' 'unsafe-inline' *.cloudfront.net https://www.googletagmanager.com https://www.google-analytics.com https://member.psychologytoday.com;
-    style-src 'self' 'unsafe-inline';
-    img-src 'self' blob: https://*.cloudflare.com https://*.google.com;
+    script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://member.psychologytoday.com;
+    style-src 'self';
+    img-src 'self' blob: data: https://*.cloudflare.com https://*.google.com;
     font-src 'self';
     object-src 'none';
     base-uri 'self';
