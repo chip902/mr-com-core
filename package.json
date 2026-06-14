@@ -4,22 +4,22 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build && next-sitemap",
+		"build": "next build",
 		"start": "next start",
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"@chakra-ui/icons": "^2.2.4",
 		"@chakra-ui/next-js": "^2.4.2",
 		"@chakra-ui/pro-theme": "^0.10.0",
 		"@chakra-ui/react": "^2.10.10",
-		"@emotion/react": "^11.11.4",
-		"@emotion/styled": "^11.11.5",
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.1",
 		"@fontsource/roboto": "^5.0.13",
 		"@next/third-parties": "^16.2.9",
 		"dotenv": "^17.4.2",
-		"framer-motion": "^11.2.6",
+		"framer-motion": "^11.18.2",
 		"next": "^16.2.9",
-		"next-sitemap": "^4.2.3",
 		"react": "^19",
 		"react-dom": "^19"
 	},

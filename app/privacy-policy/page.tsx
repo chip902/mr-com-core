@@ -1,5 +1,7 @@
+'use client';
+
 import { Box, Container, Heading, Text, VStack } from "@chakra-ui/react";
-import NextLink from "next/link";
+import { Link as ChakraLink } from "@chakra-ui/next-js";
 
 const PrivacyPolicy = () => {
 	return (
@@ -28,7 +30,7 @@ const PrivacyPolicy = () => {
 					<Text>
 						An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are
 						using it. The Gravatar service privacy policy is available here:{" "}
-						<NextLink href="https://automattic.com/privacy/">https://automattic.com/privacy/</NextLink>. After approval of your comment, your
+						<ChakraLink href="https://automattic.com/privacy/">https://automattic.com/privacy/</ChakraLink>. After approval of your comment, your
 						profile picture is visible to the public in the context of your comment.
 					</Text>
 				</VStack>
@@ -109,7 +111,7 @@ const PrivacyPolicy = () => {
 						If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold
 						about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does
 						not include any data we are obliged to keep for administrative, legal, or security purposes. Email
-						<NextLink href="mailto:admin@chip-hosting.com">admin@chip-hosting.com</NextLink> with any such requests.
+						<ChakraLink href="mailto:admin@chip-hosting.com">admin@chip-hosting.com</ChakraLink> with any such requests.
 					</Text>
 				</VStack>
 				<Heading textTransform="uppercase" as="h3" size="md" mb="6" mt="4">
