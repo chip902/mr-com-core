@@ -1,6 +1,8 @@
+'use client';
+
 import { useEffect, useState } from "react";
 import { Box, Button, Slide, Text, useDisclosure } from "@chakra-ui/react";
-import NextLink from "next/link";
+import { Link as ChakraLink } from "@chakra-ui/next-js";
 
 const PrivacyBanner = () => {
 	const { isOpen, onToggle } = useDisclosure();
@@ -31,7 +33,7 @@ const PrivacyBanner = () => {
 				<Button mx={10} onClick={handleAcceptCookies}>
 					Accept Cookies
 				</Button>
-				<Button as={NextLink} href="/privacy-policy">
+				<Button as={ChakraLink} href="/privacy-policy">
 					Privacy Policy
 				</Button>
 			</Box>
